@@ -1,0 +1,61 @@
+@font-face{
+
+	font-family: Roboto;
+	src: url(Roboto-Thin.ttf);
+}
+body{
+	background-color: #101c2b;
+}
+h1{
+	background-color: #2d3845;
+	font-size: 365%;
+	margin-top: -0.6%;
+	margin-left: -0.6%;
+	margin-right: -0.5%;
+	text-align: center;
+	color: white;
+	font-family: Roboto;
+}
+h2{
+	color: white;
+	text-align: center;
+	font-size: 170%;
+	margin-top: 9%;
+	font-family: Roboto;
+	margin-bottom: 3%;
+
+}
+h3{
+	color: white;
+	font-size: 180%;
+	text-align: center;
+	font-family: Roboto;
+	padding: 20px;
+
+
+}
+#visiteur{
+
+		background-color: #2d3845;
+		margin-left: 42.5%;
+		margin-right: 40%;
+		border-radius: 40px;
+		width: 15%;
+
+}
+h4{
+	color: white;
+	font-size: 180%;
+	text-align: center;
+	margin-top: -1%;
+	font-family: Roboto;
+	padding: 20px;
+}
+#comptable{
+	background-color: #2d3845;
+	margin-left: 42.5%;
+	margin-right: 40%;
+	border-radius: 40px;
+	width: 15%;
+	margin-top: 2%;
+}
