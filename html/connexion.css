@@ -3,19 +3,25 @@
 	font-family: Robotoregular;
 	src: url(Roboto-Regular.ttf);
 }
+@font-face{
+	font-family: Roboto;
+	src: url(Roboto-Thin.ttf);
+}
 body{
 	background-color: #101c2b;
 }
 #previous{
-	padding-top: 2vh;
+	padding-top: 1.8vh;
 	background-color: #2d3845;
 	position: absolute;
 	width: 10vw;
-	height: 7.5vh;
+	height: 6vh;
 	border-radius: 40px;
 	top: 14.5vh;
 	color: white;
 	left: 43vw;
+	font-family: Roboto;
+	font-size: 82%;
 	
 
 }
@@ -24,7 +30,8 @@ body{
 	margin-top: 0;
 	font-size: 180%;
 	text-align: center;
-	font-family: Robotoregular;
+	font-family: Roboto;
+	
 }
 #previous:hover{
 	padding-top: 1vw;
@@ -35,7 +42,7 @@ body{
     top: 6.8vw;
     left: 42vw;
     color: #2d3845;
-    font-family: Robotoregular;
+   
 
 }
 
@@ -57,7 +64,8 @@ input {
   top: 40.5vh;
   left: 41vw;
   font-size: 120%;
-  	font-family: Robotoregular;
+  font-family: Roboto;
+  	
 
 }
 #input {
@@ -70,30 +78,33 @@ input {
   position: absolute;
   top: 53.5vh;
   left: 41vw;
-  font-size: 120%;
-  	font-family: Robotoregular;
+  font-size: 115%;
+  font-family: Roboto;
+  	color: white;
 }
 #connect{
-	padding-top: 1.7vh;
+	padding-top: 1.5vh;
 	color: white;
 	position: absolute;
-	background-color: #2d3845;
+	background-color: #101c2b;
 	width: 10vw;
-	height: 7.5vh;
+	height: 6vh;
 	border-radius: 40px; 
 	top: 30.5vw;
 	left: 43vw;
-	font-family: Robotoregular;
+	font-size: 82%;
 	border-color: white;
 	border-width: 25%;
 	border-style: solid;
+	font-family: Roboto;
 
 }
 #connexion{
 	margin-top: 0;
 	font-size: 180%;
 	text-align: center;
-	font-family: Robotoregular;
+	font-family: Roboto;
+	
 
 }
 #connect:hover{
@@ -105,12 +116,12 @@ input {
     top: 30vw;
     left: 42vw;
     color: #2d3845;
-    font-family: Robotoregular;
+    
 
 }
 #image{
 	position: absolute;
 	width: 2vw;
-	top: 8vw;
+	top: 7.8vw;
 	left: 44vw;
 }
