@@ -26,36 +26,64 @@ h2{
 
 }
 h3{
-	color: white;
+	margin-top: 0;
 	font-size: 180%;
 	text-align: center;
 	font-family: Roboto;
-	padding: 20px;
+	
 
 
 }
 #visiteur{
-
+		padding-top: 2.5vh;
+		color: white;
+		position: absolute;
 		background-color: #2d3845;
-		margin-left: 42.5%;
-		margin-right: 40%;
+		top: 37vh;
+		left: 43vw;
 		border-radius: 40px;
-		width: 15%;
-
+		width: 15vw;
+		height: 7.5vh;
+    	transition-duration: 0.4s;
 }
 h4{
-	color: white;
+	margin-top: 0;
 	font-size: 180%;
 	text-align: center;
-	margin-top: -1%;
 	font-family: Roboto;
-	padding: 20px;
+	
 }
 #comptable{
+	padding-top: 2.5vh;
+	color: white;
+	position: absolute;
 	background-color: #2d3845;
-	margin-left: 42.5%;
-	margin-right: 40%;
+	top: 53vh;
+	left: 43vw;
 	border-radius: 40px;
-	width: 15%;
-	margin-top: 2%;
+	width: 15vw;
+	height: 7.5vh;
+	transition-duration: 0.4s;
+}
+#visiteur:hover{
+	cursor: pointer;
+	background-color: white;
+    color: #2d3845 ;
+    width: 16vw;
+    height: 8vh;
+    top: 36vh;
+    left: 42.5vw;
+    padding-top: 3.5vh;
+    transition-duration: 0.4s;
+}
+#comptable:hover{
+	cursor: pointer;
+	background-color: white;
+    color: #2d3845 ;
+    width: 16vw;
+    height: 8vh;
+    top: 52vh;
+    left: 42.5vw;
+    transition-duration: 0.4s;
+    padding-top: 3.5vh;
 }
