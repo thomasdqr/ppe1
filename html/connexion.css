@@ -1,0 +1,112 @@
+@font-face{
+
+	font-family: Robotoregular;
+	src: url(Roboto-Regular.ttf);
+}
+body{
+	background-color: #101c2b;
+}
+#previous{
+	padding-top: 2vh;
+	background-color: #2d3845;
+	position: absolute;
+	width: 10vw;
+	height: 7.5vh;
+	border-radius: 40px;
+	top: 14.5vh;
+	color: white;
+	left: 43vw;
+	
+
+}
+#retour{
+	padding-left: 2.5vw;
+	margin-top: 0;
+	font-size: 180%;
+	text-align: center;
+	font-family: Robotoregular;
+}
+#previous:hover{
+	padding-top: 1vw;
+	background-color: white;
+	cursor: pointer;
+	 width: 12vw;
+    height: 8vh;
+    top: 6.8vw;
+    left: 42vw;
+    color: #2d3845;
+    font-family: Robotoregular;
+
+}
+
+#comptable{
+	color: white;
+	margin-top: 13.5%;
+	margin-left: 39%;
+	font-size: 200%;
+	font-family: Robotoregular;
+}
+input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid white;
+  color: white;
+  width: 15vw;
+  position: absolute;
+  top: 40.5vh;
+  left: 41vw;
+  font-size: 120%;
+  	font-family: Robotoregular;
+
+}
+#input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid white;
+  width: 15vw;
+  color: white;
+  position: absolute;
+  top: 53.5vh;
+  left: 41vw;
+  font-size: 120%;
+  	font-family: Robotoregular;
+}
+#connect{
+	padding-top: 1.7vh;
+	color: white;
+	position: absolute;
+	background-color: #2d3845;
+	width: 10vw;
+	height: 7.5vh;
+	border-radius: 40px; 
+	top: 30.5vw;
+	left: 43vw;
+	font-family: Robotoregular;
+
+}
+#connexion{
+	margin-top: 0;
+	font-size: 180%;
+	text-align: center;
+	font-family: Robotoregular;
+}
+#connect:hover{
+	padding-top: 1vw;
+	background-color: white;
+	cursor: pointer;
+	 width: 12vw;
+    height: 8vh;
+    top: 30vw;
+    left: 42vw;
+    color: #2d3845;
+    font-family: Robotoregular;
+
+}
+#image{
+	position: absolute;
+	width: 2vw;
+	top: 8vw;
+	left: 44vw;
+}
