@@ -43,13 +43,17 @@ body{
     left: 42vw;
     color: #2d3845;
    
-
 }
-
+input::placeholder {
+  color: white;
+}
+#input::placeholder {
+  color: white;
+}
 #comptable{
 	color: white;
 	margin-top: 13.5%;
-	margin-left: 39%;
+	margin-left: 37.2%;
 	font-size: 200%;
 	font-family: Robotoregular;
 }
