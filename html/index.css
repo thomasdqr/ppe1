@@ -69,9 +69,9 @@ h4{
     color: #2d3845 ;
     width: 16vw;
     height: 8vh;
-    top: 30vh;
+    top: 29.5vh;
     left: 42.5vw;
-    padding-top: 3.5vh;
+    padding-top: 3vh;
     transition-duration: 0.4s;
 }
 #comptable:hover{
@@ -80,10 +80,10 @@ h4{
     color: #2d3845 ;
     width: 16vw;
     height: 8vh;
-    top: 46.5vh;
+    top: 46vh;
     left: 42.5vw;
     transition-duration: 0.4s;
-    padding-top: 3.5vh;
+    padding-top: 3vh;
 }
 
 #divconnexion{
