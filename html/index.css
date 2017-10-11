@@ -5,6 +5,7 @@
 }
 body{
 	background-color: #101c2b;
+	overflow-x: hidden;
 }
 h1{
 	background-color: #2d3845;
@@ -30,16 +31,13 @@ h3{
 	font-size: 180%;
 	text-align: center;
 	font-family: Roboto;
-	
-
-
 }
 #visiteur{
 		padding-top: 2.5vh;
 		color: white;
 		position: absolute;
 		background-color: #2d3845;
-		top: 37vh;
+		top: 30vh;
 		left: 43vw;
 		border-radius: 40px;
 		width: 15vw;
@@ -58,7 +56,7 @@ h4{
 	color: white;
 	position: absolute;
 	background-color: #2d3845;
-	top: 53vh;
+	top: 46.5vh;
 	left: 43vw;
 	border-radius: 40px;
 	width: 15vw;
@@ -71,7 +69,7 @@ h4{
     color: #2d3845 ;
     width: 16vw;
     height: 8vh;
-    top: 36vh;
+    top: 30vh;
     left: 42.5vw;
     padding-top: 3.5vh;
     transition-duration: 0.4s;
@@ -82,9 +80,32 @@ h4{
     color: #2d3845 ;
     width: 16vw;
     height: 8vh;
-    top: 52vh;
+    top: 46.5vh;
     left: 42.5vw;
     transition-duration: 0.4s;
     padding-top: 3.5vh;
-transition-duration: 0.4s;
+}
+
+#divconnexion{
+	position: absolute;
+	left: 100vw;
+	top: 10vh;
+	width: 100vw;
+	transition-duration: 0.4s;
+
+}
+#divindex{
+	position: absolute;
+	left: 0vw;
+	top: 10vh;
+	width: 100vw;
+	transition-duration: 0.4s;
+}
+#divcomptable{
+	position: absolute;
+	left: 100vw;
+	top: 10vh;
+	width: 100vw;
+	transition-duration: 0.4s;
+
 }

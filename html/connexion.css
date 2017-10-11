@@ -11,36 +11,61 @@ body{
 	background-color: #101c2b;
 }
 #previous{
-	padding-top: 1.8vh;
+	
 	background-color: #2d3845;
 	position: absolute;
 	width: 10vw;
 	height: 6vh;
 	border-radius: 40px;
-	top: 14.5vh;
+	margin-top: 5%;
 	color: white;
-	left: 43vw;
+	margin-left: 43vw;
 	font-family: Roboto;
 	font-size: 82%;
+	transition-duration: 0.4s;
+}
+#previouss{
 	
-
+	background-color: #2d3845;
+	position: absolute;
+	width: 10vw;
+	height: 6vh;
+	border-radius: 40px;
+	margin-top: 5%;
+	color: white;
+	margin-left: 43vw;
+	font-family: Roboto;
+	font-size: 82%;
+	transition-duration: 0.4s;
 }
 #retour{
 	padding-left: 2.5vw;
-	margin-top: 0;
+	margin-top: 5%;
 	font-size: 180%;
 	text-align: center;
 	font-family: Roboto;
 	
 }
 #previous:hover{
-	padding-top: 1vw;
+	padding-top: 0vh;
 	background-color: white;
 	cursor: pointer;
-	 width: 12vw;
+	width: 12vw;
     height: 6vh;
-    top: 6.8vw;
-    left: 42vw;
+    margin-top:5%;
+    margin-left: 42vw;
+    color: #2d3845;
+    transition-duration: 0.4s;
+   
+}
+#previouss:hover{
+	padding-top: 0vh;
+	background-color: white;
+	cursor: pointer;
+	width: 12vw;
+    height: 6vh;
+    margin-top:5%;
+    margin-left: 42vw;
     color: #2d3845;
     transition-duration: 0.4s;
    
@@ -51,10 +76,12 @@ input::placeholder {
 #input::placeholder {
   color: white;
 }
-#comptable{
+#comptablee{
+	position: relative;
 	color: white;
-	margin-top: 13.5%;
-	margin-left: 37.2%;
+	width: 100%;
+	text-align: center;
+	margin-top: 4%;
 	font-size: 200%;
 	font-family: Robotoregular;
 }
@@ -65,9 +92,9 @@ input {
   border-bottom: 1px solid white;
   color: white;
   width: 15vw;
-  position: absolute;
-  top: 40.5vh;
-  left: 41vw;
+  position: relative;
+  margin-top: 2%;
+  margin-left: 41vw;
   font-size: 120%;
   font-family: Roboto;
   	
@@ -80,9 +107,9 @@ input {
   border-bottom: 1px solid white;
   width: 15vw;
   color: white;
-  position: absolute;
-  top: 53.5vh;
-  left: 41vw;
+  position: relative;
+  margin-top: 5%;
+  margin-left: 41vw;
   font-size: 115%;
   font-family: Roboto;
   	color: white;
@@ -90,25 +117,27 @@ input {
 #connect{
 	padding-top: 1.5vh;
 	color: white;
-	position: absolute;
+	position: relative;
 	background-color: #101c2b;
 	width: 10vw;
 	height: 6vh;
 	border-radius: 40px; 
-	top: 30.5vw;
-	left: 43vw;
+	margin-top: 5%;
+	margin-left: 43vw;
 	font-size: 82%;
 	border-color: white;
 	border-width: 25%;
 	border-style: solid;
 	font-family: Roboto;
+	transition-duration: 0.4s;
 
 }
 #connexion{
-	margin-top: 0;
+	margin-top: 1%;
 	font-size: 180%;
 	text-align: center;
 	font-family: Roboto;
+	transition-duration: 0.4s;
 	
 
 }
@@ -118,15 +147,15 @@ input {
 	cursor: pointer;
 	 width: 12vw;
     height: 6vh;
-    top: 30vw;
-    left: 42vw;
+    margin-top: 5%;
+    margin-left: 42vw;
     color: #2d3845;
 transition-duration: 0.4s;    
 
 }
 #image{
-	position: absolute;
+	position: relative;
 	width: 2vw;
-	top: 7.8vw;
-	left: 44vw;
+	margin-top: 5.5%;
+	margin-left: 44vw;
 }
