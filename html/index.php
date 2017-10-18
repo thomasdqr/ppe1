@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <?php
-
+if (isset($_POST['username_comptable']) AND isset($_POST['password_comptable'])) {
+	echo "WOOOOOOOORK";
+}
 ?>
 <html>
 <head>

@@ -1,0 +1,279 @@
+body
+{
+	background-color: #101c2b;
+}
+
+:focus{
+	outline: 0;
+}
+
+#top_bar
+{
+	background-color: #2d3845;
+	position: absolute;
+	top : 0;
+	left: 0;
+	height: 10vh;
+	width: 100vw;
+}
+
+#top_title
+{
+	position: absolute;
+	width: 100vw;
+	left: 0;
+	top: 2vh;
+	text-align: center;
+	font-family: Robotothin;
+	font-size: 5vh;
+	color: white;
+}
+
+#new_remboursement_txt
+{
+	font-family: Robotothin;
+	color: white;
+	font-size: 3.5vh;
+	position: absolute;
+	top: 20vh;
+	left: 28vw;
+}
+
+#new_remboursement_div
+{
+	position: absolute;
+	top: 25vh;
+	left: 27.5vw;
+	height: 4px;
+	background-color: white;
+	width: 20vw;
+}
+
+#my_remboursements_txt
+{
+	font-family: Robotothin;
+	color: white;
+	font-size: 3.5vh;
+	position: absolute;
+	top: 20vh;
+	left: 54.3vw;
+}
+
+#my_remboursements_div
+{
+	position: absolute;
+	top: 25vh;
+	left: 53.5vw;
+	height: 4px;
+	background-color: #2d3845;
+	width: 18vw;
+}
+
+#current_month_txt
+{
+	position: absolute;
+	top: 35vh;
+	width: 100vw;
+	text-align: center;
+	font-size: 4vh;
+	font-family: Robotothin;
+	color: white;
+}
+
+#previous_btn
+{
+	position: absolute;
+	top: 35.5vh;
+	left: 42vw;
+	height: 3.8vh;
+	width: 2vh;
+
+}
+
+#next_btn
+{
+	position: absolute;
+	top: 35.5vh;
+	left: 58vw;
+	height: 3.8vh;
+	width: 2vh;
+
+}
+
+#add_repas
+{
+	background-color: #2d3845;
+	position: absolute;
+	top: 43vh;
+	left: 43vw;
+	height: 5.5vh;
+	width: 4vh;
+	border-radius: 100%;
+	font-family: Robotothin;
+	color: white;
+	font-size: 4vh;
+	padding-top: 0.5vh;
+	padding-left: 2vh;
+	cursor: pointer;
+}
+
+#less_repas
+{
+	background-color: #2d3845;
+	position: absolute;
+	top: 43vh;
+	left: 48.5vw;
+	height: 5.5vh;
+	width: 4vh;
+	border-radius: 100%;
+	font-family: Robotothin;
+	color: white;
+	font-size: 4vh;
+	padding-top: 0.5vh;
+	padding-left: 2vh;
+	cursor: pointer;
+}
+
+#repas_input
+{
+	position: absolute;
+	top: 44.5vh;
+	left: 46.2vw;
+	height: 3vh;
+	width: 2vw;
+	background-color: transparent;
+	border-style: none;
+    border-bottom: solid white 1px;
+    color: white;
+    font-size: 3vh;
+    padding-bottom: 1vh;
+    text-align: center;
+}
+
+#repas_txt
+{
+	position: absolute;
+	top: 54.5vh;
+	left: 54vw;
+	color: white;
+	font-family: Robotothin;
+	font-size: 3vh;
+}
+
+#add_nuits
+{
+	background-color: #2d3845;
+	position: absolute;
+	top: 53vh;
+	left: 43vw;
+	height: 5.5vh;
+	width: 4vh;
+	border-radius: 100%;
+	font-family: Robotothin;
+	color: white;
+	font-size: 4vh;
+	padding-top: 0.5vh;
+	padding-left: 2vh;
+	cursor: pointer;
+}
+
+#less_nuits
+{
+	background-color: #2d3845;
+	position: absolute;
+	top: 53vh;
+	left: 48.5vw;
+	height: 5.5vh;
+	width: 4vh;
+	border-radius: 100%;
+	font-family: Robotothin;
+	color: white;
+	font-size: 4vh;
+	padding-top: 0.5vh;
+	padding-left: 2vh;
+	cursor: pointer;
+}
+
+#nuits_input
+{
+	position: absolute;
+	top: 54.5vh;
+	left: 46.2vw;
+	height: 3vh;
+	width: 2vw;
+	background-color: transparent;
+	border-style: none;
+    border-bottom: solid white 1px;
+    color: white;
+    font-size: 3vh;
+    padding-bottom: 1vh;
+    text-align: center;
+}
+
+#nuits_txt
+{
+	position: absolute;
+	top: 44.5vh;
+	left: 54vw;
+	color: white;
+	font-family: Robotothin;
+	font-size: 3vh;
+}
+
+#hf_div
+{
+	position: absolute;
+	top: 65vh;
+	left: 45vw;
+	width: 12vw;
+	height: 7vh;
+	background-color: #2d3845;
+	border-radius: 10vh;
+	cursor: pointer;
+}
+
+#hf_btn_txt
+{
+	position: absolute;
+	margin-top: 1.5vh;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-family: Robotothin;
+	font-size: 3vh;
+}
+
+#submit_btn
+{
+	position: absolute;
+	top: 75vh;
+	left: 42vw;
+	width: 19vw;
+	height: 7vh;
+	background-color: #2d3845;
+	border-radius: 10vh;
+	cursor: pointer;
+}
+
+#submit_txt
+{
+	position: absolute;
+	margin-top: 1.5vh;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-family: Robotothin;
+	font-size: 3vh;
+}
+
+@font-face{
+
+	font-family: Robotothin;
+	src: url(Roboto-Thin.ttf);
+}
+
+@font-face{
+
+	font-family: Robotoreg;
+	src: url(Roboto-Regular.ttf);
+}
