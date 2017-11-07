@@ -35,18 +35,18 @@ body
 	color: white;
 	font-size: 3.5vh;
 	position: absolute;
-	top: 20vh;
-	left: 28vw;
+	top: 15vh;
+	left: 33vw;
 }
 
 #new_remboursement_div
 {
 	position: absolute;
-	top: 25vh;
-	left: 27.5vw;
+	top: 20vh;
+	left: 32vw;
 	height: 4px;
 	background-color: white;
-	width: 20vw;
+	width: 12vw;
 }
 
 #my_remboursements_txt
@@ -55,25 +55,73 @@ body
 	color: white;
 	font-size: 3.5vh;
 	position: absolute;
-	top: 20vh;
-	left: 54.3vw;
+	top: 15vh;
+	left: 59vw;
 }
 
 #my_remboursements_div
 {
 	position: absolute;
-	top: 25vh;
-	left: 53.5vw;
+	top: 20vh;
+	left: 58.2vw;
 	height: 4px;
 	background-color: #2d3845;
-	width: 18vw;
+	width: 9vw;
+}
+
+#forfait_elements
+{
+	position: absolute;
+	height: 50vh;
+	width: 40vw;
+	top: 30vh;
+	left: 6.6vw;
+	border-radius: 10vh;
+	border: solid 1px white;
+}
+
+#forfait_title
+{
+	font-family: 'Robotothin';
+	color: white;
+	font-size: 3vh;
+	position: absolute;
+	background-color: #101c2b;
+	top: -2vh;
+	left: 12vw;
+	padding-left: 1vw;
+	padding-right: 1vw;
+}
+
+#horsforfait_elements
+{
+	position: absolute;
+	height: 50vh;
+	width: 40vw;
+	top: 30vh;
+	left: 53.2vw;
+	border-radius: 10vh;
+	border: solid 1px white;
+}
+
+#horsforfait_title
+{
+	font-family: 'Robotothin';
+	color: white;
+	font-size: 3vh;
+	position: absolute;
+	background-color: #101c2b;
+	top: -2vh;
+	left: 12.5vw;
+	padding-left: 1vw;
+	padding-right: 1vw;
 }
 
 #current_month_txt
 {
 	position: absolute;
 	top: 35vh;
-	width: 100vw;
+	width: 99vw;
 	text-align: center;
 	font-size: 4vh;
 	font-family: Robotothin;
@@ -104,8 +152,8 @@ body
 {
 	background-color: #2d3845;
 	position: absolute;
-	top: 43vh;
-	left: 43vw;
+	top: 13vh;
+	left: 9vw;
 	height: 5.5vh;
 	width: 4vh;
 	border-radius: 100%;
@@ -121,8 +169,8 @@ body
 {
 	background-color: #2d3845;
 	position: absolute;
-	top: 43vh;
-	left: 48.5vw;
+	top: 13vh;
+	left: 14.5vw;
 	height: 5.5vh;
 	width: 4vh;
 	border-radius: 100%;
@@ -137,8 +185,8 @@ body
 #repas_input
 {
 	position: absolute;
-	top: 44.5vh;
-	left: 46.2vw;
+	top: 14.5vh;
+	left: 12.2vw;
 	height: 3vh;
 	width: 2vw;
 	background-color: transparent;
@@ -153,8 +201,8 @@ body
 #repas_txt
 {
 	position: absolute;
-	top: 54.5vh;
-	left: 54vw;
+	top: 24.5vh;
+	left: 20vw;
 	color: white;
 	font-family: Robotothin;
 	font-size: 3vh;
@@ -164,8 +212,8 @@ body
 {
 	background-color: #2d3845;
 	position: absolute;
-	top: 53vh;
-	left: 43vw;
+	top: 23vh;
+	left: 9vw;
 	height: 5.5vh;
 	width: 4vh;
 	border-radius: 100%;
@@ -181,8 +229,8 @@ body
 {
 	background-color: #2d3845;
 	position: absolute;
-	top: 53vh;
-	left: 48.5vw;
+	top: 23vh;
+	left: 14.5vw;
 	height: 5.5vh;
 	width: 4vh;
 	border-radius: 100%;
@@ -197,8 +245,8 @@ body
 #nuits_input
 {
 	position: absolute;
-	top: 54.5vh;
-	left: 46.2vw;
+	top: 24.5vh;
+	left: 12.2vw;
 	height: 3vh;
 	width: 2vw;
 	background-color: transparent;
@@ -213,8 +261,68 @@ body
 #nuits_txt
 {
 	position: absolute;
-	top: 44.5vh;
-	left: 54vw;
+	top: 14.5vh;
+	left: 20vw;
+	color: white;
+	font-family: Robotothin;
+	font-size: 3vh;
+}
+
+#add_km
+{
+	background-color: #2d3845;
+	position: absolute;
+	top: 33vh;
+	left: 9vw;
+	height: 5.5vh;
+	width: 4vh;
+	border-radius: 100%;
+	font-family: Robotothin;
+	color: white;
+	font-size: 4vh;
+	padding-top: 0.5vh;
+	padding-left: 2vh;
+	cursor: pointer;
+}
+
+#less_km
+{
+	background-color: #2d3845;
+	position: absolute;
+	top: 33vh;
+	left: 14.5vw;
+	height: 5.5vh;
+	width: 4vh;
+	border-radius: 100%;
+	font-family: Robotothin;
+	color: white;
+	font-size: 4vh;
+	padding-top: 0.5vh;
+	padding-left: 2vh;
+	cursor: pointer;
+}
+
+#km_input
+{
+	position: absolute;
+	top: 34.5vh;
+	left: 12.2vw;
+	height: 3vh;
+	width: 2vw;
+	background-color: transparent;
+	border-style: none;
+    border-bottom: solid white 1px;
+    color: white;
+    font-size: 3vh;
+    padding-bottom: 1vh;
+    text-align: center;
+}
+
+#km_txt
+{
+	position: absolute;
+	top: 34.5vh;
+	left: 20vw;
 	color: white;
 	font-family: Robotothin;
 	font-size: 3vh;
@@ -223,8 +331,8 @@ body
 #hf_div
 {
 	position: absolute;
-	top: 65vh;
-	left: 45vw;
+	top: 5vh;
+	left: 14vw;
 	width: 12vw;
 	height: 7vh;
 	background-color: #2d3845;
@@ -234,6 +342,7 @@ body
 
 #hf_btn_txt
 {
+	pointer-events: none;
 	position: absolute;
 	margin-top: 1.5vh;
 	width: 100%;
@@ -243,11 +352,31 @@ body
 	font-size: 3vh;
 }
 
+#hf_blocks
+{
+	position: absolute;
+	height: 36vh;
+	width: 84%;
+	margin-left: 8%;
+	margin-top: 15%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.hf_block
+{
+	width: 100%;
+	height: 8vh;
+	background-color: #2d3845;
+	border-radius: 30vh;
+	margin-bottom: 1vh;
+}
+
 #submit_btn
 {
 	position: absolute;
-	top: 75vh;
-	left: 42vw;
+	top: 85vh;
+	left: 40vw;
 	width: 19vw;
 	height: 7vh;
 	background-color: #2d3845;
