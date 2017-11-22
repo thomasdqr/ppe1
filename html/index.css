@@ -3,6 +3,14 @@
 	font-family: Roboto;
 	src: url(Roboto-Thin.ttf);
 }
+
+::selection {
+    background: transparent;
+}
+::-moz-selection {
+    background: transparent;
+}
+
 body{
 	background-color: #101c2b;
 	overflow-x: hidden;

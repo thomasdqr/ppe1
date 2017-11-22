@@ -1,10 +1,18 @@
 body
 {
 	background-color: #101c2b;
+	overflow: hidden;
 }
 
 :focus{
 	outline: 0;
+}
+
+::selection {
+    background: transparent;
+}
+::-moz-selection {
+    background: transparent;
 }
 
 #top_bar
@@ -37,6 +45,7 @@ body
 	position: absolute;
 	top: 15vh;
 	left: 33vw;
+	cursor: pointer;
 }
 
 #new_remboursement_div
@@ -51,6 +60,7 @@ body
 
 #my_remboursements_txt
 {
+	cursor: pointer;
 	font-family: Robotothin;
 	color: white;
 	font-size: 3.5vh;
@@ -78,6 +88,7 @@ body
 	left: 6.6vw;
 	border-radius: 10vh;
 	border: solid 1px white;
+	transition-duration: 1s;
 }
 
 #forfait_title
@@ -102,6 +113,7 @@ body
 	left: 53.2vw;
 	border-radius: 10vh;
 	border: solid 1px white;
+	transition-duration: 1s;
 }
 
 #horsforfait_title
@@ -152,7 +164,7 @@ body
 {
 	background-color: #2d3845;
 	position: absolute;
-	top: 13vh;
+	top: 11vh;
 	left: 9vw;
 	height: 5.5vh;
 	width: 4vh;
@@ -169,7 +181,7 @@ body
 {
 	background-color: #2d3845;
 	position: absolute;
-	top: 13vh;
+	top: 11vh;
 	left: 14.5vw;
 	height: 5.5vh;
 	width: 4vh;
@@ -185,7 +197,7 @@ body
 #repas_input
 {
 	position: absolute;
-	top: 14.5vh;
+	top: 12.5vh;
 	left: 12.2vw;
 	height: 3vh;
 	width: 2vw;
@@ -196,12 +208,13 @@ body
     font-size: 3vh;
     padding-bottom: 1vh;
     text-align: center;
+    font-family: "Robotothin";
 }
 
 #repas_txt
 {
 	position: absolute;
-	top: 24.5vh;
+	top: 22.5vh;
 	left: 20vw;
 	color: white;
 	font-family: Robotothin;
@@ -212,7 +225,7 @@ body
 {
 	background-color: #2d3845;
 	position: absolute;
-	top: 23vh;
+	top: 21vh;
 	left: 9vw;
 	height: 5.5vh;
 	width: 4vh;
@@ -229,7 +242,7 @@ body
 {
 	background-color: #2d3845;
 	position: absolute;
-	top: 23vh;
+	top: 21vh;
 	left: 14.5vw;
 	height: 5.5vh;
 	width: 4vh;
@@ -245,7 +258,7 @@ body
 #nuits_input
 {
 	position: absolute;
-	top: 24.5vh;
+	top: 22.5vh;
 	left: 12.2vw;
 	height: 3vh;
 	width: 2vw;
@@ -256,12 +269,13 @@ body
     font-size: 3vh;
     padding-bottom: 1vh;
     text-align: center;
+    font-family: "Robotothin";
 }
 
 #nuits_txt
 {
 	position: absolute;
-	top: 14.5vh;
+	top: 12.5vh;
 	left: 20vw;
 	color: white;
 	font-family: Robotothin;
@@ -272,7 +286,7 @@ body
 {
 	background-color: #2d3845;
 	position: absolute;
-	top: 33vh;
+	top: 31vh;
 	left: 9vw;
 	height: 5.5vh;
 	width: 4vh;
@@ -289,7 +303,7 @@ body
 {
 	background-color: #2d3845;
 	position: absolute;
-	top: 33vh;
+	top: 31vh;
 	left: 14.5vw;
 	height: 5.5vh;
 	width: 4vh;
@@ -305,7 +319,7 @@ body
 #km_input
 {
 	position: absolute;
-	top: 34.5vh;
+	top: 32.5vh;
 	left: 12.2vw;
 	height: 3vh;
 	width: 2vw;
@@ -316,12 +330,13 @@ body
     font-size: 3vh;
     padding-bottom: 1vh;
     text-align: center;
+    font-family: "Robotothin";
 }
 
 #km_txt
 {
 	position: absolute;
-	top: 34.5vh;
+	top: 32.5vh;
 	left: 20vw;
 	color: white;
 	font-family: Robotothin;
@@ -375,14 +390,28 @@ body
 #submit_btn
 {
 	position: absolute;
-	top: 85vh;
-	left: 40vw;
+	bottom: 2vh;
+	left: 10vw;
 	width: 19vw;
 	height: 7vh;
 	background-color: #2d3845;
+	color: white;
 	border-radius: 10vh;
 	cursor: pointer;
 }
+
+#submit_btn:active
+{
+	background-color: white;
+	color: #2d3845;
+}
+
+.disabled
+{
+	pointer-events: none;
+    opacity: 0.5;
+}
+
 
 #submit_txt
 {
@@ -390,11 +419,121 @@ body
 	margin-top: 1.5vh;
 	width: 100%;
 	text-align: center;
-	color: white;
 	font-family: Robotothin;
+	font-size: 3vh;
+	pointer-events: none;
+}
+
+#history_div
+{
+	position: absolute;
+	left: 30vw;
+	top: 40vh;
+	height: 55vh;
+	width: 40vw;
+	border: solid 1px white;
+	border-radius: 10vh;
+	transition-duration: 1s;
+
+}
+
+#hist_nuits
+{
+	position: absolute;
+	left: 3vw;
+	top: 2.5vh;
+	color: white;
+	font-family: 'Robotothin';
 	font-size: 3vh;
 }
 
+#hist_repas
+{
+	position: absolute;
+	left: 17.5vw;
+	top: 2.5vh;
+	color: white;
+	font-family: 'Robotothin';
+	font-size: 3vh;
+}
+
+#hist_km
+{
+	position: absolute;
+	right: 3vw;
+	top: 2.5vh;
+	color: white;
+	font-family: 'Robotothin';
+	font-size: 3vh;
+}
+
+#hist_line
+{
+	position: absolute;
+	width: 90%;
+	height: 2px;
+	background-color: #2d3845;
+	top: 8vh;
+	left: 5%;
+}
+
+#hist_hf
+{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 10vh;
+	color: white;
+	font-family: 'Robotothin';
+	font-size: 3.5vh;
+}
+
+#calendar
+{
+	position: absolute;
+	top: 30vh;
+	left: 42.5vw;
+	height: 8vh;
+	width: 15vw;
+	transition-duration: 1s;
+}
+
+#month
+{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-family: Robotothin;
+	font-size: 4vh;
+	top: 1.5vh;
+}
+
+#prev_btn
+{
+	background-position: center;
+	background-image: url("Arrow_left.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 60%;
+	width: 20%;
+	position: absolute;
+	top: 20%;
+	left: 0;
+}
+
+#next_btn
+{
+	background-position: center;
+	background-image: url("Arrow_right.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 60%;
+	width: 20%;
+	position: absolute;
+	top: 20%;
+	left: 80%;
+}
 @font-face{
 
 	font-family: Robotothin;

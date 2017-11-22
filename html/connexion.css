@@ -10,6 +10,14 @@
 body{
 	background-color: #101c2b;
 }
+
+::selection {
+    background: transparent;
+}
+::-moz-selection {
+    background: transparent;
+}
+
 #previous{
 	
 	background-color: #2d3845;

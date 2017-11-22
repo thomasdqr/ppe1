@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <?php
+session_start();
+
 if (isset($_POST['username_comptable']) AND isset($_POST['password_comptable'])) {
 	//On a cliqué sur connexion comptable
 	$BaseDeDonnees = new PDO('mysql:host=localhost;dbname=gsb', 'root','');
@@ -25,10 +27,12 @@ if (isset($_POST['username_visiteur']) AND isset($_POST['password_visiteur'])) {
 	$BaseDeDonnees = new PDO('mysql:host=localhost;dbname=gsb', 'root','');
 	$user = $_POST['username_visiteur'];
 	$user_exist = false;
-	foreach($BaseDeDonnees->query("SELECT mdp FROM visiteur WHERE utilisateur = '$user'") as $row) {
+	foreach($BaseDeDonnees->query("SELECT mdp, id FROM visiteur WHERE utilisateur = '$user'") as $row) {
 		$user_exist = true;
 		if ($row[0]==$_POST['password_visiteur']) {
 			echo 'It works';
+			$_SESSION['id_visiteur'] = $row[1];
+			header('Location: interface.php');
 
 		}
 		else{
