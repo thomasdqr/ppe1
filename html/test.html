@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+	<input id="justif" type="file" name="fileToUpload" id="fileToUpload">
+	<button onclick="test()">TEST</button>
+	<script type="text/javascript">
+
+		function test() {
+			var form_data = new FormData();  
+			form_data.append("prenom", "thomas");
+			form_data.append('nom', "dequeiros");
+			form_data.append('file', document.getElementById('justif').files[0]);
+		//form_data.append('age', "19");
+
+
+		form_data.append('action', 'hf');
+		$.ajax({
+			url : 'test_answer.php',
+			type : 'POST',
+			contentType: false,
+			processData: false,
+		/*
+		data:{
+			
+			hash:hash,
+			id_user:id_user,
+			libelle:libelle,
+			date:date,
+			montant:montant,
+			month: current_date.getMonth() + 1,
+			year: current_date.getFullYear(),
+			action:'hf'
+			
+		},
+		*/
+		data: form_data,
+		success: function(response) {
+			document.body.innerHTML += response;
+		}
+	});
+	}
+</script>
+</body>
+</html>
