@@ -116,7 +116,7 @@ input {
   width: 15vw;
   color: white;
   position: relative;
-  margin-top: 5%;
+  margin-top: 1%;
   margin-left: 41vw;
   font-size: 115%;
   font-family: Roboto;
@@ -130,7 +130,7 @@ input {
 	width: 10vw;
 	height: 6vh;
 	border-radius: 40px; 
-	margin-top: 5%;
+	margin-top: 25vh;
 	margin-left: 43vw;
 	font-size: 82%;
 	border-color: white;
@@ -155,7 +155,7 @@ input {
 	cursor: pointer;
 	 width: 12vw;
     height: 6vh;
-    margin-top: 5%;
+   /* margin-top: 5%;*/
     margin-left: 42vw;
     color: #2d3845;
 transition-duration: 0.4s;    

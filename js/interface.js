@@ -61,6 +61,12 @@ function updateMonth(modif) {
 					if (infos[4].length > 1) {
 						html_res += "<a class='link2' href='"+infos[4]+"'>justificatif</a>";
 					}
+					if (infos[5] == "1") {
+						html_res += "<img class='status_icon' src='./validate.png'>"
+					}
+					if (infos[5] == "2") {
+						html_res += "<img class='status_icon' src='./refused.png'>"
+					}
 					html_res += "</div>";
 					hf_block_div.innerHTML += html_res;
 				}
@@ -329,7 +335,7 @@ function deleteHF(element)
 {
 	var id_user = document.getElementById("id_user").innerHTML;
 	var hash = document.getElementById("hash").innerHTML;
-
+		
 	var id_hf = element.parentElement.getElementsByClassName("id_hf")[0].innerHTML;
 	$.ajax({
 		url : 'communicate.php',

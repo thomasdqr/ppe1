@@ -38,7 +38,10 @@ if (!is_null($user_comptable) AND isset($_POST['password_comptable'])) {
 
 
 if (!is_null($user_visiteur) AND isset($_POST['password_visiteur'])) {
-	$BaseDeDonnees = new PDO('mysql:host=localhost;dbname=gsb', 'root','');
+	//LOCAL DB :
+	//$BaseDeDonnees = new PDO('mysql:host=localhost;dbname=gsb', 'root','');
+	//ONLINE DB :
+	$BaseDeDonnees = new PDO('mysql:host=thomasdeltroot.mysql.db;dbname=thomasdeltroot', 'thomasdeltroot', 'Password98');
 	//$user = $_POST['username_visiteur'];
 	$user_exist = false;
 	//echo "SELECT mdp FROM comptables WHERE utilisateur = '$user'"; 
@@ -65,7 +68,7 @@ if (!is_null($user_visiteur) AND isset($_POST['password_visiteur'])) {
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="index.css">
 	<link rel="stylesheet" href="connexion.css">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	
 	<title>accueil</title>
 </head>

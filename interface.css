@@ -458,6 +458,19 @@ body
 	text-align: center;
 }
 
+.status_icon
+{
+	right: 1vw;
+	margin-top: -1vh;
+	position: absolute;
+	color: white;
+	width: 2vw;
+	height: 5vh;
+	object-fit: contain;
+	object-position: center;
+	pointer-events: none;
+}
+
 #submit_btn
 {
 	position: absolute;
@@ -748,7 +761,7 @@ input::placeholder {
 	width: 270px;
 	font-size: 3vh;
 	text-align: center;
-	font-family: Robotothin;
+	font-family: Robotothin
 	border-style: solid;
 	border-color: white;
 	background-color: #2d3845;
