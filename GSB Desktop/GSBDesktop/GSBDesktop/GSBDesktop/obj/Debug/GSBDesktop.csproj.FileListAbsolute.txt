@@ -1,0 +1,11 @@
+C:\Users\thoma\Documents\PROJETS_epsi\PPE2\ppe2\GSB Desktop\GSBDesktop\GSBDesktop\bin\Debug\GSBDesktop.exe.config
+C:\Users\thoma\Documents\PROJETS_epsi\PPE2\ppe2\GSB Desktop\GSBDesktop\GSBDesktop\bin\Debug\GSBDesktop.exe
+C:\Users\thoma\Documents\PROJETS_epsi\PPE2\ppe2\GSB Desktop\GSBDesktop\GSBDesktop\bin\Debug\GSBDesktop.pdb
+C:\Users\thoma\Documents\PROJETS_epsi\PPE2\ppe2\GSB Desktop\GSBDesktop\GSBDesktop\obj\Debug\GSBDesktop.csprojResolveAssemblyReference.cache
+C:\Users\thoma\Documents\PROJETS_epsi\PPE2\ppe2\GSB Desktop\GSBDesktop\GSBDesktop\obj\Debug\GSBDesktop.Form1.resources
+C:\Users\thoma\Documents\PROJETS_epsi\PPE2\ppe2\GSB Desktop\GSBDesktop\GSBDesktop\obj\Debug\GSBDesktop.Properties.Resources.resources
+C:\Users\thoma\Documents\PROJETS_epsi\PPE2\ppe2\GSB Desktop\GSBDesktop\GSBDesktop\obj\Debug\GSBDesktop.csproj.GenerateResource.Cache
+C:\Users\thoma\Documents\PROJETS_epsi\PPE2\ppe2\GSB Desktop\GSBDesktop\GSBDesktop\obj\Debug\GSBDesktop.csproj.CoreCompileInputs.cache
+C:\Users\thoma\Documents\PROJETS_epsi\PPE2\ppe2\GSB Desktop\GSBDesktop\GSBDesktop\obj\Debug\GSBDesktop.exe
+C:\Users\thoma\Documents\PROJETS_epsi\PPE2\ppe2\GSB Desktop\GSBDesktop\GSBDesktop\obj\Debug\GSBDesktop.pdb
+C:\Users\thoma\Documents\PROJETS_epsi\PPE2\ppe2\GSB Desktop\GSBDesktop\GSBDesktop\obj\Debug\GSBDesktop.Form2.resources
