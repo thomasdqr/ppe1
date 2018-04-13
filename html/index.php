@@ -6,42 +6,9 @@ session_start();
 /* UTILISER LES FILTER INPUT */
 $user_visiteur= filter_input(INPUT_POST, 'username_visiteur', FILTER_SANITIZE_STRING);
 
-/*
-if (!is_null($user_comptable) AND isset($_POST['password_comptable'])) {
-	//On a cliqué sur connexion comptable
-	$BaseDeDonnees = new PDO('mysql:host=localhost;dbname=gsb', 'root','');
-	$user = $_POST['username_comptable'];
-	$user_exist = false;
-	
-	securiser les requêtes
-
-	$request = $BaseDeDonnees->query("SELECT mdp FROM comptables WHERE utilisateur = :user"):
-	$request2 = $request->execute(array("user" => $user_comptable));
-	$request2->fetch_all();
-	
-	foreach($BaseDeDonnees->query("SELECT mdp FROM comptables WHERE utilisateur = :user") as $row) {
-		$user_exist = true;
-		if ($row[0]==$_POST['password_comptable']) {
-			echo 'It works';
-
-		}
-		else{
-			echo 'wrong password';
-		}
-	}
-	if($user_exist == false){
-		echo 'User doesn\'t exist';
-	}
-}
-
-*/
-
-
 if (!is_null($user_visiteur) AND isset($_POST['password_visiteur'])) {
 	$BaseDeDonnees = new PDO('mysql:host=localhost;dbname=gsb', 'root','');
-	//$user = $_POST['username_visiteur'];
 	$user_exist = false;
-	//echo "SELECT mdp FROM comptables WHERE utilisateur = '$user'"; 
 	foreach($BaseDeDonnees->query("SELECT mdp, id FROM visiteur WHERE utilisateur = '$user_visiteur'") as $row) {
 		$user_exist = true;
 		if ($row[0]==$_POST['password_visiteur']) {
@@ -101,7 +68,10 @@ if (!is_null($user_visiteur) AND isset($_POST['password_visiteur'])) {
 		<p id="comptablee">Connexion visiteur : </p>
 		<form action="" method="post">
 			<input name="username_visiteur" placeholder="Nom d'utilisateur" required>
-			<input name="password_visiteur" type="password" id="input" placeholder="●●●●●●●●●●" required>
+			<input name="password_visiteur" type="text" id="input" placeholder="Code numérique" readonly>
+			<table id="mytable">
+				
+			</table>
 			<div id="connect" onclick="document.getElementById('submit_visiteur').click()">
 				<p id="connexion" >Connexion</p>
 			</div>
@@ -109,4 +79,5 @@ if (!is_null($user_visiteur) AND isset($_POST['password_visiteur'])) {
 		</div>
 	</body>
 	<script src="js/sloat.js"></script> 
+	<script type="text/javascript" src="js/btsblanc.js"></script>
 	</html>
